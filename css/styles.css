@@ -1,0 +1,68 @@
+:root {
+--background-color-first: #FFF;
+--background-color-second: #F6F6F8;
+--light-text-color: #FFF;
+--title-color: #323232;
+--p-text: #999;
+--subtitle-color: #000;
+--accent-color: #4985FF;
+}
+
+body {
+    color: var(--p-text);
+    font-family: Montserrat, sans-serif;
+}
+
+.list {
+      list-style: none;
+}
+
+
+
+/* ====COMPONENTS===== */
+
+.button {
+    color: var(--background-color-first);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: var(--accent-color);
+    width: 200px;
+    height: 45px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px 0px rgba(111, 111, 111, 0.25);
+}
+
+.link {
+    color: var(--accent-color);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.section-title {
+  color: var(--title-color);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 146.28%;
+}
+
+.main-text {
+  font-size: 16px;
+  line-height: 158.47%;
+}
+
+.subtitle-text {
+  color: var(--subtitle-color);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.subtitle-text {
+  font-size: 14px;
+  line-height: 158.47%;
+}
+
+/* ====/COMPONENTS===== */
